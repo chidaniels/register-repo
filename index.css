@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    width: 80%;
+    margin:auto; 
+}
+.sign-up {
+    color: rgb(196, 193, 193);
+    font-size: 15px;
+    font-weight: 100;
+}
+.log-in {
+    background-color: #19467d;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: -25px;
+    height: 30px;
+    padding:15px 5% 0 0 ;
+}
+.main-content {
+    background-image: url(regpic.png);
+    background-repeat: no-repeat;
+    margin-top: -23px;
+    padding-top: 20px;
+    
+}
+.form-header {
+    
+    font-size: 20px;
+    text-align: right;
+    padding-right: 15.7%;
+}
+.form-box{
+    font-size: 16px;
+    text-align: right;
+}
+.label-1 {
+    display: block;
+    padding-right: 23.5%;
+    padding-top: 20px;
+}
+.label-2 {
+    display: block;
+    padding-right: 23.7%;
+    padding-top: 20px;
+}
+.label-3{
+    display: block;
+    padding-right: 21%;
+    padding-top: 20px;
+}
+.label-4 {
+    display: block;
+    padding-right: 21.5%;
+    padding-top: 20px;
+}
+.label-5 {
+    display: block;
+    padding-right: 24.3%;
+    padding-top: 20px;
+}
+.form-box input[type="text"], .form-box input[type="email"], .form-box input[type="password"] {
+    padding:8px ;
+    width: 25%;
+    padding-right: 50px;
+    outline-color: rgb(131, 192, 233);
+    color: rgb(194, 23, 171);   
+}
+.input-field1, .input-field2 {
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;  
+}
+.input-field3 {
+    background-image: url(phone.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;  
+  
+}
+.input-field4 {
+    background-image: url(images.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:40px;
+}
+
+#button {
+    margin:2% 12%;
+    padding: 4px 10px;
+    color: white;
+    background-color: #19467d;
+}
+.input-group span {
+    display: block;
+    color: red;
+}
