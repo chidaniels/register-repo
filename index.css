@@ -24,7 +24,6 @@ body {
     background-repeat: no-repeat;
     margin-top: -23px;
     padding-top: 20px;
-    
 }
 .form-header {
     
@@ -38,28 +37,33 @@ body {
 }
 .label-1 {
     display: block;
-    padding-right: 23.5%;
+    padding-right: 24.3%;
     padding-top: 20px;
+    font-size: 14px;
 }
 .label-2 {
     display: block;
-    padding-right: 23.7%;
+    padding-right: 24.6%;
     padding-top: 20px;
+    font-size: 14px;
 }
 .label-3{
     display: block;
-    padding-right: 21%;
+    padding-right: 22%;
     padding-top: 20px;
+    font-size: 14px;
 }
 .label-4 {
     display: block;
-    padding-right: 21.5%;
+    padding-right: 22.4%;
     padding-top: 20px;
+    font-size: 14px;
 }
 .label-5 {
     display: block;
-    padding-right: 24.3%;
-    padding-top: 20px;
+    padding-right: 24.8%;
+    padding-top: 21px;
+    font-size: 14px;
 }
 .form-box input[type="text"], .form-box input[type="email"], .form-box input[type="password"] {
     padding:8px ;
@@ -67,6 +71,7 @@ body {
     padding-right: 50px;
     outline-color: rgb(79, 197, 138);
     color: rgb(194, 23, 171); 
+    border: 1px solid grey;
     border-radius: 7px;  
 }
 .input-field1, .input-field2 {
@@ -99,7 +104,4 @@ body {
 #button:hover{
     outline: 2px solid rgb(72, 185, 223);
 }
-.input-group span {
-    display: block;
-    color: red;
-}
+
