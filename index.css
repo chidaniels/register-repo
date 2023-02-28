@@ -65,8 +65,9 @@ body {
     padding:8px ;
     width: 25%;
     padding-right: 50px;
-    outline-color: rgb(131, 192, 233);
-    color: rgb(194, 23, 171);   
+    outline-color: rgb(79, 197, 138);
+    color: rgb(194, 23, 171); 
+    border-radius: 7px;  
 }
 .input-field1, .input-field2 {
     background-image: url(user.png);
@@ -90,9 +91,13 @@ body {
 
 #button {
     margin:2% 12%;
-    padding: 4px 10px;
+    padding: 10px 20px;
     color: white;
     background-color: #19467d;
+    border: #19467d;
+}
+#button:hover{
+    outline: 2px solid rgb(72, 185, 223);
 }
 .input-group span {
     display: block;
