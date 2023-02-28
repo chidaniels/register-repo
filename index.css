@@ -74,7 +74,13 @@ body {
     border: 1px solid grey;
     border-radius: 7px;  
 }
-.input-field1, .input-field2 {
+.input-field1 {
+    background-image: url(user.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;  
+}
+ .input-field2 {
     background-image: url(user.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -104,4 +110,8 @@ body {
 #button:hover{
     outline: 2px solid rgb(72, 185, 223);
 }
-
+#error {
+display: block;
+color:red;
+font-size: 8px;
+}
