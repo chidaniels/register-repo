@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Sign Up Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <script src="https://kit.fontawesome.com/e4a9d68675.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h5 class="sign-up">Sign Up</h5>
+        <h5 class="log-in">Login</h5>
+        <div class="main-content">
+            <div class="form-header">
+                <h3>Create Account</h3>
+            </div>
+            <div class="form-box">
+                <div id="error"></div>
+                <form name="myform" id="my-form" action="/" method=""  >
+                    <div class="input-group">
+                        <label class="label-1" for="first name">First Name</label>
+                        <input  class="input-field1" type="text" name="firstname" placeholder="Enter First Name"  id="firstname" >
+                        <span id="name-error"></span>
+                    </div>
+                    <div class="input-group">
+                        <label class="label-2" for="last name">Last Name</label>
+                        <input class="input-field2" type="text" name="lastname"placeholder="Enter Lastname" id="lastname"  >
+                        <span id="last-error"></span>
+                    </div>
+                    <div class="input-group">
+                        <label class="label-3" for="phone number">Phone Number</label>
+                        <input class="input-field3" type="text" name="phone" placeholder="Enter Phonenumber" id="phone" >
+                        <span id="phone-error"></span>
+                    </div>
+                    <div class="input-group">
+                        <label class="label-4" for="email address">Email Address</label>
+                        <input class="input-field4" type="email" name="email" placeholder="Enter Email Address" id="email" >
+                        <span id="email-error"></span>
+                    </div>
+                    <div class="input-group">
+                        <label class="label-5" for="password">Password</label>
+                        <input class="input-field" type="password" name="password" placeholder="Enter Password" id="password" >
+                        <span id="password-error"> </span>
+                    </div>
+                    <input id="button" type="submit" name="submit" value="Sign Up"  id="button">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="index.js"></script>
+               
+</body>
+</html>
